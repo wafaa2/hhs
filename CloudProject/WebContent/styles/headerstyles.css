@@ -1,0 +1,46 @@
+body {margin:0;}
+
+.topnav {
+	overflow: hidden;
+	background-color: white;
+	padding-bottom: 30px;
+	font-family: "Calibri";
+	font-size: medium;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+	margin-top:50px;
+    padding: 14px 16px;
+    text-decoration: none;
+	color: #03593f;
+}
+li a:hover:not(.active) {
+    color: #03593f;
+	background-color: whitesmoke;
+}
+.active {
+    background-color: #4CAF50;
+}
+.buttonsignout {
+	display: inline-block;
+	border-radius: 5px 5px 5px 5px;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+	padding: 12px;
+	width: 150px;
+	margin: 0px;
+	color: white;
+	font-family: "Calibri";	
+	background-color: #c9c9c9;
+}

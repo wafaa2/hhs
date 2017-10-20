@@ -1,0 +1,624 @@
+@charset "utf-8";
+/* Global Styles */
+@font-face { font-family: "Segoe UI Light"; } 
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: 90%;
+	padding-left: 0%;
+	padding-right: 0%;
+	background-color: #F3F3F3;
+	font-family: "Segoe UI Light";
+}
+/* Header */
+header {
+	text-align: center;
+	display: block;
+	/*background-color: rgba(199,199,199,1.00);*/
+	background-image: url(picture3.png);
+	/*background-image: url(5-Blurred-Backgrounds.jpg);*/
+	background-size: cover;
+	-webkit-box-shadow: 6px 7px 29px #C7C7C7;
+	box-shadow: 6px 7px 29px #C7C7C7;
+}
+header .profileLogo .logoPlaceholder {
+	/* [disabled]background-color: rgba(208,207,207,1.00); */
+	width: 324px;
+	text-align: center;
+}
+header .logoPlaceholder span {
+	width: 100px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 53px;
+}
+header .profilePhoto {
+	background-color: rgba(237,237,237,1.00);
+	width: 259px;
+	border-radius: 50%;
+	height: 259px;
+	clear: both;
+}
+header .profileHeader h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+header .profileHeader h3 {
+	font-family: sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+hr {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+}
+header .profileHeader p {
+	font-family: sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+header .socialNetworkNavBar {
+	text-align: center;
+	display: block;
+	margin-top: 60px;
+	clear: both;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	border-radius: 50%;
+	cursor: pointer;
+}
+header .socialNetworkNavBar .socialNetworkNav img:hover {
+	opacity: 0.5;
+}
+/* Main Content sections */
+.mainContent .section1 {
+	display: block;
+	background-color: #FFFFFF;
+	/*float: left;*/
+	
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-family: "GE Inspira";
+	color: #F7AB57;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+.section1 .sectionTitleR, .section2 .sectionTitleR {
+	font-family: "GE Inspira";
+	color: #4F9BCB;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	margin-top: 0;
+	margin-right: 3%;
+	margin-left: 11px;
+	margin-bottom: 0;
+	float: left;
+	clear: both;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+	padding-top: 0%;
+	padding-right: 0%;
+	padding-left: 0%;
+	padding-bottom: 0%;
+	margin-right: 1%;
+}
+.mainContent .section1 .section1Content {
+	font-family: "GE Inspira";
+	font-size: 14px;
+	font-weight: 100;
+	color: #717171;
+	float: left;
+}
+.mainContent .section1 .section1Content span {
+	color: rgba(146,146,146,1.00);
+	font-family: sans-serif;
+}
+.section2 .sectionContentTitle {
+	font-family: "GE Inspira";
+	color: rgba(146,146,146,1.00);
+	font-size: 18px;
+	font-weight: 700;
+	padding-left: 4%;
+}
+.section2 .sectionContentSubTitle {
+	font-family: sans-serif;
+	color: rgba(68,67,67,1.00);
+	font-size: 14px;
+	font-weight: 400;
+}
+.section2 .sectionContent {
+	font-family: "GE Inspira";
+	color: rgba(146,146,146,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.mainContent {
+	/*display: block;*/
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 9px 7px 42px #CBCBCB;
+	box-shadow: 9px 7px 42px #CBCBCB;
+	float:left;
+	
+}
+.mainContent .externalResourcesNav .externalResources {
+	background-color: #ED7D31;
+	display: inline-block;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 3%;
+	cursor: pointer;
+/*	margin-bottom: 2%;*/
+}
+.mainContent .externalResourcesNav .externalResources2 {
+	font-family: "GE Inspira";
+	display: inline-block;
+	
+	margin-top: 0px;
+	padding-top: 0%;
+	
+	/*margin-bottom: 2%;*/
+}
+
+.mainContent .externalResourcesNav .externalResources:hover {
+	background-color: #ED7D31;
+}
+.externalResourcesNav .externalResources a {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+	float: 
+}
+.stretch {
+	content: '';
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerDisclaimer span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+footer .footerNote {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerNote span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+table {
+	font-family: "GE Inspira";
+	font-size: medium;
+	color: #717171;
+	size: 50%;
+	width: 55%;
+}
+th {
+	text-align: left;
+	border-bottom-width: medium;
+	border-bottom-color: rgba(186,186,186,1.00);
+}
+tr {
+	border-bottom: medium none rgba(113,113,113,1.00);
+	width: 0%;
+}
+.section1Content p {
+	color: #3A3A3A;
+	font-family: "GE Inspira";
+}
+ul {
+	color: #393939;
+}
+
+
+
+
+
+
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+/* Header */
+header {
+	width: 100%;
+	float: none;
+	height: 0%;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+	display: inline-block;
+}
+header .profileHeader {
+	text-align: center;
+	margin-top: 10%;
+}
+header .profileHeader p {
+	text-align: justify;
+}
+header .socialNetworkNavBar {
+	text-align: center;
+	display: block;
+	margin-top: 60px;
+	clear: both;
+	margin-bottom: 15%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin-right: 23px;
+}
+/* Main content sections */
+.mainContent .section1 {
+	/*text-align: center;*/
+	margin-bottom: 10%;
+}
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 88%;
+	padding-right: 7%;
+	margin-right: 0%;
+	left: -23%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: inline-block;
+	text-align: left;
+	font-family: sans-serif;
+	text-align: justify;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.mainContent .section2 {
+	display: block;
+
+	background-color: #FFFFFF;
+}
+.section2 .section2Content {
+	margin-top: 5%;
+	text-align: justify;
+	margin-bottom: 10%;
+	background-color: #FFFFFF;
+}
+.mainContent .externalResourcesNav {
+	margin-bottom: 2%;
+	padding-bottom: 0%;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 100%;
+	height: 35px;
+}
+/* Footer */
+footer {
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+}
+/* Global Styles */
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: 960px;
+	padding-left: 0%;
+	padding-right: 0%;
+	font-family: "GE Inspira";
+	background-color: #FFFFFF;
+}
+table {
+	font-family: "GE Inspira";
+	font-size: medium;
+	color: rgba(113,113,113,1.00);
+	width: 0%;
+	margin-right: 5%;
+	width: 95%;
+}
+/* Global Styles */
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: 960px;
+	padding-left: 0%;
+	padding-right: 0%;
+	font-family: "GE Inspira";
+	background-color: #E9E9E9;
+}
+
+
+
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+	margin-top: 5%;
+}
+header .profileHeader {
+	text-align: left;
+	margin-top: 7%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline-block;
+	margin-right: 23px;
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 96%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin: 0% 0% 0% 0%;
+	font-family: sans-serif;
+	width:100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .section2 {
+	clear: both;
+	padding-right: 1%;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 20%;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 0%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	/*text-align: center;*/
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+	margin-top: 5%;
+}
+.mainContent .externalResourcesNav .externalResources2 {
+
+	text-align: center;
+}
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+.headerimg {
+	margin-left: 32%;
+
+}
+.logoimg {
+
+}
+
+
+table {
+	
+	margin-top: 5%;
+	font-family: "GE Inspira";
+	font-size: medium;
+	width: 80%;
+}
+}
+
+
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+/* Header */
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+}
+header .profileHeader {
+	text-align: left;
+	padding-top: 10%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline-block;
+	margin-right: 23px;
+}
+/* Main content sections */
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 96.5%;
+}
+.mainContent .section1 .section1Content {
+	/*display: block;*/
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 5%;
+	margin-bottom: 0%;
+	margin-bottom: 0%;
+	font-family: sans-serif;
+	float: left;
+	width: 93%;
+	text-align: left;
+}
+.mainContent .section2 {
+	clear: both;
+	float:left;
+}
+.section2 .section2Content {
+	padding-top: 0%;
+	padding-right: 6%;
+	padding-left: 0%;
+	padding-bottom: 0%;
+	margin-left: 26%;
+	font-family: sans-serif;
+}
+.mainContent .externalResourcesNav {
+margin-top: 40px;
+	margin-bottom: 40px;
+	/*text-align: center;*/
+	padding-top: 0px;
+	clear: both;
+	float:left;
+	width: 100%; 
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 248px;
+	height: 48px;
+
+}
+.mainContent .externalResourcesNav .externalResources2{
+	width: 26%;
+	float: left;
+}
+.mainContent .externalResourcesNav .externalResources2left{
+	width: 72%;
+	float: left;
+}
+
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+table {
+	font-family: "GE Inspira";
+	font-size: medium;
+	width: 102em;
+	text-align: left;
+}
+.headerimg {
+	padding-left: 300px;
+
+}
+.logoimg {
+	margin-left: -60%;
+
+}
+.gettheappimg {
+	display: inline-block;
+	margin-left: 0px;
+	float: right;
+	margin-right: 9px;
+
+}
+
+
+
+
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+	width: 10%;
+	text-align:center;
+	
+}
+left{
+	text-align:left;
+	text-align:left;
+	
+}
+.header {
+}
+.headerimg {
+
+}
+.logoimg {
+}
+.gettheappimg {
+}
+
+table {
+	margin-top: 5%;
+	font-family: "GE Inspira";
+	font-size: medium;
+	width: 95%;
+}
+.externalResources2l {
+}
+.list {
+	margin-right: 6px;
+}
